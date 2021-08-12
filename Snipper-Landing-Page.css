@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+.top-half{
+    background-image: url(Assets/Background.png);
+
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-right: 100px;
+   
+}
+.hamburger{
+    display: none;
+   
+  
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+    
+}
+.nav-items li{
+    list-style: none;
+    padding-right: 20px;
+    
+}
+.nav-items li a{
+    text-decoration: none;
+    text-align: right;
+    color: black;
+}
+.nav-items li a button{
+    padding:10px;
+    color:white;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 10%;
+}
+.nav-items li a button span{
+    color:grey;
+    font-weight: bold;
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2.5rem;
+    display: inline-block;
+}
+.heading p{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+   
+}
+.heading button{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    color:white;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 10%;
+}
+.heading button span{
+    color: grey;
+    font-weight: bold;
+}
+.top-img img{
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 40px;
+    display: flex;
+}
+.row{
+    display: flex;
+}
+.column{
+    width: 100%;  
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.column h2{
+    text-align: left;
+    padding-top: 50px;
+    width: 100%;
+}
+.column p{
+
+    width: 100%;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+.column button{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    color:white;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 10%;
+}
+.column button span{
+    color: grey;
+    font-weight: bold;
+}
+.column img{
+    text-align: right;
+    width: 100%;
+    padding-right: 110px;
+}
+.logo-btm{
+ padding-left: 100px;
+}
+.footer-items{
+    padding-right: 90px;
+    padding-top: 100px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+}
+.footer-items li{
+    list-style: none;
+    padding-right: 20px;
+}
+.footer-items li a{
+    text-decoration: none;
+    text-align: right;
+    color: black;
+    float: right; 
+    padding-left: 12px;
+    padding-bottom: 50px;
+   
+} 
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .nav-bar{
+        padding-top: 30px;
+        padding-left: 100px;
+       
+       
+    }
+    .hamburger{
+        display: none;
+        align-items: center;
+        padding-left: 100px;
+      
+    }
+    .heading{
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .top-img img{
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 40px;
+        height: auto;
+    
+    }
+    .column img{
+        text-align: center;
+        width: 100%;
+        padding-right: 80px;
+        padding-top: 20px;
+        padding-left: 80px;
+    }
+    .row{
+        display:inline-block;
+    }
+    .column{
+        width: 100%;  
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+    .column h2{
+        text-align: left;
+        padding-top: 30px;
+        width: 100%;
+        padding-right: 100px;
+        
+    }
+    .column p{
+        padding-right: 50px;
+        padding-top: 10px;
+    }
+    .logo-btm{
+        padding-left: 50px;
+       }
+    .footer-items{
+        padding-right: 20px;
+        padding-top: 100px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .footer-items li{
+        list-style: none;
+    
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .nav-bar{
+        display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
+       
+    }
+    .hamburger{
+       text-align: right;
+       display: flex;
+       
+      
+    }
+    .nav-items{
+        display: none;
+        
+    }
+    .heading{
+        text-align: center;
+    }
+    .heading h1{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 50px;
+        font-size: 3.5rem;
+        display: flex;
+        padding-right: 20px;
+        padding-left: 20px;
+      
+     
+    }
+    .heading p{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-right: 40px;
+        padding-left: 40px;
+      
+    }
+    .heading button{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        color:white;
+        font-weight: bold;
+        background-color: black;
+        width: 90%;
+    }
+    .top-img img{
+     display:flex;
+     width: 100%;
+     height: auto;
+    }
+    .row{
+        display: inline-block;
+    }
+    .column{
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .column img{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding-right: 30px;
+        padding-top: 50px;
+    }
+    .column h2{
+        
+        padding-top: 30px;
+        width: 100%;
+        text-align: left;
+        font-size: 1.8rem;
+       
+    }
+    .column p{
+      padding-top: 10px;
+      padding-right: 5px;
+    }
+    .column button{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        color:white;
+        font-weight: bold;
+        background-color: black;
+    }
+    .logo-btm{
+        padding-left: 20px;
+       }
+       .footer-items{
+        padding-right: 5px;
+        padding-top: 100px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+
+
+
+}
