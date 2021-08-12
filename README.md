@@ -1,4 +1,6 @@
 
+My first attempt to a CodeWell challange practicing my HTML and CSS skills. The page is responsive for mobile, tablet and desktops. I struggled with the images and structuring of the columns when it comes to responsiveness. Please feel free to comment on the project. Thank you.
+
 # Welcome to Codewell! 👋
 
 Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects. 
